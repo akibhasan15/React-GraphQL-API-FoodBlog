@@ -1,0 +1,31 @@
+
+type Product{
+  id:ID! @id
+  
+  title:String!
+  price:Int!
+  saleprice:Int! 
+  image:String!
+  content:String!
+  
+}
+
+type ProductCategory{
+  id:ID! @id
+  title:String!
+  image:String!
+}
+
+type Post{
+  id:ID! @id
+  title:String!
+  image:String!
+  content:String!
+}
+
+type PostCategory{
+  id:ID! @id
+  title:String!
+  image:String!
+}
+
